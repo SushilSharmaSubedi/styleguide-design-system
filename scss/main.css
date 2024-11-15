@@ -1,0 +1,319 @@
+:root {
+  --primary-color: #fa2a32;
+  --secondary-color: #82685d;
+  --light-brown: #b0988d;
+  --purple: #b73983;
+  --gray-light: #fef7f7;
+  --warning: #ffc107;
+  --success: #28a745;
+  --info: #17a2b8;
+  --danger: #dc3545;
+}
+
+.bg-primary-color {
+  background-color: #fa2a32;
+}
+
+.bg-secondary-color {
+  background-color: #82685d;
+}
+
+.bg-light-brown {
+  background-color: #b0988d;
+}
+
+.bg-purple {
+  background-color: #b73983;
+}
+
+.bg-gray-light {
+  background-color: #fef7f7;
+}
+
+.bg-warning {
+  background-color: #ffc107;
+}
+
+.bg-success {
+  background-color: #28a745;
+}
+
+.bg-info {
+  background-color: #17a2b8;
+}
+
+.bg-danger {
+  background-color: #dc3545;
+}
+
+h1,
+.hfs-1 {
+  font-size: 40px;
+  letter-spacing: -3%;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  h1,
+  .hfs-1 {
+    font-size: 64px;
+    letter-spacing: -3%;
+    font-weight: 500;
+  }
+}
+
+h2,
+.hfs-2 {
+  font-size: 28px;
+  letter-spacing: -3%;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  h2,
+  .hfs-2 {
+    font-size: 40px;
+    letter-spacing: -3%;
+    font-weight: 500;
+  }
+}
+
+h3,
+.hfs-3 {
+  font-size: 20px;
+  letter-spacing: -3%;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  h3,
+  .hfs-3 {
+    font-size: 32px;
+    letter-spacing: -3%;
+    font-weight: 500;
+  }
+}
+
+h4,
+.hfs-4 {
+  font-size: 18px;
+  letter-spacing: -3%;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  h4,
+  .hfs-4 {
+    font-size: 24px;
+    letter-spacing: -3%;
+    font-weight: 500;
+  }
+}
+
+h5,
+.hfs-5 {
+  font-size: 14px;
+  letter-spacing: -3%;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  h5,
+  .hfs-5 {
+    font-size: 16px;
+    letter-spacing: -3%;
+    font-weight: 500;
+  }
+}
+
+h6,
+.hfs-6 {
+  font-size: 14px;
+  letter-spacing: -3%;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  h6,
+  .hfs-6 {
+    font-size: 14px;
+    letter-spacing: -3%;
+    font-weight: 500;
+  }
+}
+
+.pfs-1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .pfs-1 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+}
+
+.pfs-2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .pfs-2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+.pfs-3 {
+  font-size: 14px;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .pfs-3 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+.pfs-4 {
+  font-size: 13px;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .pfs-4 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+.pfs-5 {
+  font-size: 12px;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .pfs-5 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+.pfs-6 {
+  font-size: 10px;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .pfs-6 {
+    font-size: 10px;
+    font-weight: 400;
+  }
+}
+
+.btn_primary {
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: var(--purple);
+  color: white;
+  text-decoration: none;
+}
+.btn_secondary {
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: var(--light-brown);
+  color: white;
+  text-decoration: none;
+}
+.btn_default {
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: var(--warning);
+  color: white;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+}
+
+.icon-home2:before {
+  content: "\e901";
+}
+
+.icon-play:before {
+  content: "\e912";
+}
+
+.icon-film:before {
+  content: "\e913";
+}
+
+@media (min-width: 1441px) {
+  .xxl body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 4px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .xl body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 4px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1199px) {
+  .lg body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 4px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .md body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 4px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  .xs body {
+    display: block;
+    font-size: 12px;
+  }
+}
+.color-box {
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 16px;
+}
+
+.card-shadow {
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=main.css.map */
